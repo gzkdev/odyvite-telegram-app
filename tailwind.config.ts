@@ -8,9 +8,12 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        augusta: ["var(--font-augusta)"],
+        "gemfont-one": ["var(--font-gemfont-one)"],
+        "greek-freak": ["var(--font-greek-freak)"],
+        "greek-regular": ["var(--font-greek-regular)"],
+        xtra: ["var(--font-xtra)"],
       },
     },
   },
