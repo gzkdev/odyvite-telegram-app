@@ -15,7 +15,12 @@ export default {
         "greek-regular": ["var(--font-greek-regular)"],
         xtra: ["var(--font-xtra)"],
       },
+      backgroundImage: {
+        welcome: "url('/images/welcome.png')",
+        fantasy: "url('/images/btn-armor.png')",
+        opaque: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%)",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 } satisfies Config;
