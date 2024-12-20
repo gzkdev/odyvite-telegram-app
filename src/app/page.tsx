@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <>
-      <div className="flex h-full w-full flex-col items-center justify-between pb-20 pt-8 text-center">
+      <div className="flex h-[100svh] w-full flex-col items-center justify-between pb-20 pt-8 text-center">
         {/* <div className="flex flex-col items-center text-center">
           <Image
             alt="Ithaca"
