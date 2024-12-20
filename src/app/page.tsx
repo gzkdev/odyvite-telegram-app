@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <>
-      <div className="flex w-full grow flex-col items-center justify-between pb-20 pt-8 text-center">
+      <div className="flex w-full grow flex-col items-center justify-between gap-6 pb-20 pt-8 text-center">
         {/* <div className="flex flex-col items-center text-center">
           <Image
             alt="Ithaca"
@@ -26,7 +26,7 @@ export default function Home() {
         <Link href="/prologue" className="fantasy p-3 text-3xl uppercase">
           Begin Trial
         </Link> */}
-        <div>Ithaca Odyssey App</div>
+        <div className="text-3xl font-medium">Ithaca Odyssey App</div>
 
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
