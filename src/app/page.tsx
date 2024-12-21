@@ -11,7 +11,7 @@ export default function Home() {
             src="/images/ithaca-logo.png"
             width={196}
             height={64}
-            className="translate-x-4 translate-y-5"
+            className="translate-x-4 translate-y-6"
           />
 
           <div className="text-shadow text-3xl uppercase">Presents</div>
