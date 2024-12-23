@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="after:bg-curtain relative left-0 isolate h-full bg-welcome bg-cover bg-center after:absolute after:top-0 after:-z-10 after:h-full after:w-full">
       <div className="max-w-screen-xs relative mx-auto flex h-full flex-col items-center justify-between px-6 pb-24 pt-8 font-greek-freak">
-        <div className="flex flex-col items-center text-center">
+        {/* <div className="flex flex-col items-center text-center">
           <Image
             alt="Ithaca"
             src="/images/ithaca-logo.png"
@@ -23,7 +23,7 @@ export default function Home() {
 
         <Link href="/" className="fantasy-btn p-3 text-3xl uppercase">
           Begin Trial
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

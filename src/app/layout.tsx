@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Navigation from "@/components/navigation";
 import "./globals.css";
 
 const augusta = localFont({
@@ -42,6 +43,7 @@ export default function RootLayout({
         className={`${augusta.variable} ${gemfontOne.variable} ${greekFreak.variable} ${greekRegular.variable} ${xtra.variable} font-sans antialiased`}
       >
         {children}
+        <Navigation />
       </body>
     </html>
   );
